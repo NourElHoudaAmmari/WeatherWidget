@@ -10,7 +10,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white">
+        android:background="@android:color/transparent"
+       >
 
         <TextView
             android:id="@+id/idTVCity"
@@ -24,7 +25,7 @@
             android:padding="4dp"
             android:text="City Name"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20dp" />
 
         <TextView
@@ -36,7 +37,7 @@
             android:gravity="center"
             android:text="20°C"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="27sp" />
 
         <ImageView
@@ -48,7 +49,7 @@
             android:layout_marginTop="-76dp"
             android:layout_marginBottom="5dp"
             android:padding="4dp"
-            android:src="@drawable/cloudy" />
+            android:src="@drawable/ciel" />
 
     </RelativeLayout>
 
